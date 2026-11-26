@@ -11,6 +11,7 @@ spec:
       containers:
       - name: app
         image: backend-go:11
+        imagePullPolicy: IfNotPresent
         resources:
           requests:
             cpu: 50m
